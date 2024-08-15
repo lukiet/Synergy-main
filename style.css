@@ -834,6 +834,7 @@
 .text-content {
   flex: 1;
   margin-right: 20px;
+  margin-left: 20px;
 }
 
 .text-content h2 {
@@ -866,24 +867,10 @@ strong{
   height: auto;
   box-shadow: 1px 1px 10px 1px #000;
   border-radius: 1px;
+  margin: 30px;
+ 
 }
-.footer .bt {
-  margin: 0;
-  font-size: 14px;
-  color: #555;
-}
-.b{
-color: #000;
-}
-.k{
-  color: #fff;
-  }
-  .l{
-    color: red;
-    }
-    .m{
-      color: green;
-      }
+
 
 /*responsiveness*/
 @media screen and (max-width: 1024px) {
@@ -911,7 +898,8 @@ color: #000;
 
   .image-content img {
     max-width: 100%;
-    height: auto; /* Ensure image scales down properly */
+    height: auto; 
+   
   }
 }
 
@@ -1033,6 +1021,23 @@ color: #000;
 .footer-container > div {
   flex-basis: calc(25% - 20px);
 }
+.footer .bt {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+.b{
+color: #000;
+}
+.k{
+  color: #fff;
+  }
+  .l{
+    color: red;
+    }
+    .m{
+      color: green;
+      }
 
 @media (max-width: 768px) {
   .footer-container > div {
